@@ -4,7 +4,7 @@
 
         <div class="ml-auto grid grid-cols-2 gap-5">
 
-            <button type="button"
+            <button type="button" data-animate-delay="300" data-animate="fadeLeft"
                 class="border-primary rounded-full p-3 border-2 text-primary hover:scale-105 transition-all ease-in-out duration-300">
                 <svg xmlns="http://www.w3.org/2000/svg" class="size-6" viewBox="0 0 24 24" fill="currentColor">
                     <path
@@ -13,7 +13,7 @@
                 </svg>
             </button>
 
-            <button type="button"
+            <button type="button" data-animate-delay="500" data-animate="fadeRight"
                 class="bg-primary rounded-full p-3 border-2 text-white hover:scale-105 transition-all ease-in-out duration-300">
                 <svg xmlns="http://www.w3.org/2000/svg" class="size-6" viewBox="0 0 24 24" fill="currentColor">
                     <path
@@ -25,7 +25,7 @@
     </div>
 
 
-    <div class="grid lg:grid-cols-3 gap-5 grid-cols-1 mt-10">
+    <div class="grid lg:grid-cols-3 gap-5 grid-cols-1 mt-10" data-animate-delay="800" data-animate="fadeUp">
         <x-cards.top-destination badge="Assam" :image="url('/img/destinations/kaziranga-national-park.png')" name="Kaziranga National Park" stars="4.6" />
 
         <x-cards.top-destination badge="Shillong" :image="url('/img/destinations/Elephant Falls, Shillong.png')" name="Elephant Falls, Shillong" stars="4.6" />
@@ -34,7 +34,7 @@
     </div>
 
     <center>
-        <a href="http://"
+        <a href="http://" data-animate-delay="500" data-animate="fadeRight"
             class="flex items-center gap-2 w-fit mt-5 bg-slate-100 rounded-full p-3 font-bold text-primary">See All
 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"

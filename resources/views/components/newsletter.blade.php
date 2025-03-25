@@ -4,7 +4,8 @@
         <x-ui.heading subtitle="Let us reach to you" class="text-center"
             title="Enter Your Email And We Will Reach Out To You" />
 
-        <div class="bg-white p-2 rounded-xl w-full max-w-xl mx-auto flex items-center mt-10">
+        <div class="bg-white p-2 rounded-xl w-full max-w-xl mx-auto flex items-center mt-10" data-animate="fadeUp"
+            data-animate-delay="800">
             <div>
                 <svg xmlns="http://www.w3.org/2000/svg" class="size-6 text-slate-400" viewBox="0 0 24 24"
                     fill="currentColor">

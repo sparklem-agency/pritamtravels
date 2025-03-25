@@ -5,7 +5,7 @@
 
 
     <div class="grid lg:grid-cols-3 grid-cols-1 gap-5 items-center mx-auto container mt-10 relative z-10">
-        <div
+        <div data-animate="fadeLeft" data-animate-delay="100"
             class="bg-[#F5E3E3]  rounded-xl grid place-items-center p-10 space-y-10 py-16 hover:scale-105 transition-all ease-in-out duration-300">
 
             <img src="{{ asset('/img/icons/trolley-bag.png') }}" alt="" class="h-16">
@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div
+        <div data-animate="fadeUp" data-animate-delay="900"
             class="bg-[#6A14DA] text-white  rounded-xl grid place-items-center p-10 space-y-10 py-16 hover:scale-105 transition-all ease-in-out duration-300">
 
             <img src="{{ asset('/img/icons/book.png') }}" alt="" class="h-16">
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <div
+        <div data-animate="fadeRight" data-animate-delay="700"
             class="bg-[#E5CF89]  rounded-xl grid place-items-center p-10 space-y-10 py-16 hover:scale-105 transition-all ease-in-out duration-300">
 
             <img src="{{ asset('/img/icons/credit-cards.png') }}" alt="" class="h-16">

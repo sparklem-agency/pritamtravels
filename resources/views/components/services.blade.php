@@ -3,7 +3,7 @@
     <div class=" bg-purple-300 blur-3xl rounded-full size-[400px] absolute -top-0 left-20"></div>
     <div class="static z-10">
         <x-ui.heading title="We offer Best services" subtitle="Services" />
-        <div class="text-gray-600 text-sm mt-5">
+        <div class="text-gray-600 text-sm mt-5" data-animate="fadeRight">
             <p>Hey, Travelers! We're here to help you plan your dream holiday.  Simply choose your destination, and let
                 us
                 take care of the rest!</p>
@@ -11,7 +11,7 @@
 
         <div class=" mt-5 p-8">
 
-            <div
+            <div data-animate="fadeUp" data-animate-delay="300"
                 class="flex flex-row gap-5 items-center hover:bg-white rounded-xl hover:shadow-2xl  duration-1000 transition-all ease-in-out p-5 py-8 ">
                 <div class="bg-primary text-white p-3 rounded-xl">
                     <svg xmlns="http://www.w3.org/2000/svg" class="size-5" viewBox="0 0 24 24" fill="currentColor">
@@ -26,7 +26,7 @@
                 </div>
             </div>
 
-            <div
+            <div data-animate="fadeUp" data-animate-delay="600"
                 class="flex flex-row gap-5 items-center hover:bg-white rounded-xl hover:shadow-2xl  duration-1000 transition-all ease-in-out p-5 py-8">
                 <div class="bg-[#FF8126] text-white p-3 rounded-xl">
                     <svg xmlns="http://www.w3.org/2000/svg" class="size-5" viewBox="0 0 24 24" fill="currentColor">
@@ -36,12 +36,12 @@
                     </svg>
                 </div>
                 <div>
-                    <h2 class="text-lg font-bold">Select many location</h2>
-                    <p class="text-sm">Choose you favorate location</p>
+                    <h2 class="text-lg font-bold">Schedule your trip</h2>
+                    <p class="text-sm">Set the date you want</p>
                 </div>
             </div>
 
-            <div
+            <div data-animate="fadeUp" data-animate-delay="1000"
                 class="flex flex-row gap-5 items-center hover:bg-white rounded-xl hover:shadow-2xl  duration-1000 transition-all ease-in-out p-5 py-8">
                 <div class="bg-[#F411CF] text-white p-3 rounded-xl">
                     <svg xmlns="http://www.w3.org/2000/svg" class="size-5" viewBox="0 0 24 24" fill="currentColor">
@@ -51,14 +51,15 @@
                     </svg>
                 </div>
                 <div>
-                    <h2 class="text-lg font-bold">Select many location</h2>
-                    <p class="text-sm">Choose you favorate location</p>
+                    <h2 class="text-lg font-bold">Big discount</h2>
+                    <p class="text-sm">Get discount for every services</p>
                 </div>
             </div>
         </div>
     </div>
 
     <div>
-        <img src="{{ url('/img/services-image.png') }}" alt="">
+        <img src="{{ url('/img/services-image.png') }}" alt="" data-animate="fadeRight"
+            data-animate-delay="800">
     </div>
 </div>

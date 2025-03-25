@@ -6,7 +6,7 @@
     <img src="{{ url('/img/il/Graphic_Elements_testimonials.png') }}" alt="" srcset=""
         class="h-36 absolute top-16 z-10 left-0">
 
-    <div class="p-10 ">
+    <div class="p-10 " data-animate="fadeUp" data-animate-delay="800">
 
 
 
@@ -14,7 +14,7 @@
 
             <div class="w-full flex items-center absolute top-1/2 bottom-1/2">
 
-                <button type="button"
+                <button type="button" data-animate="fadeRight" data-animate-delay="800"
                     class="size-24 rounded-full border-primary grid place-items-center text-primary border bg-white -ml-10">
                     <svg xmlns="http://www.w3.org/2000/svg" class="size-10" viewBox="0 0 24 24" fill="currentColor">
                         <path
@@ -23,7 +23,7 @@
                     </svg>
                 </button>
 
-                <button type="button"
+                <button type="button" data-animate="fadeLeft" data-animate-delay="800"
                     class="size-24 rounded-full bg-primary grid place-items-center text-white ml-auto -mr-10">
                     <svg xmlns="http://www.w3.org/2000/svg" class="size-10" viewBox="0 0 24 24" fill="currentColor">
                         <path
@@ -37,11 +37,12 @@
 
             <div>
                 <center class=" space-y-5">
-                    <img src="{{ url('/img/avatar.png') }}" alt="" class=" h-28">
+                    <img src="{{ url('/img/avatar.png') }}" alt="" class=" h-28" data-animate="fadeUp"
+                        data-animate-delay="300">
 
-                    <h2 class="font-bold"> Irfan Rahmat</h2>
+                    <h2 class="font-bold" data-animate="fadeUp" data-animate-delay="600"> Irfan Rahmat</h2>
 
-                    <span class=" text-gray-600">Travel Enthusiast</span>
+                    <span class=" text-gray-600" data-animate="fadeUp" data-animate-delay="800">Travel Enthusiast</span>
                 </center>
 
                 <div class=" text-yellow-500 flex gap-2 items-center w-fit mx-auto">
@@ -54,7 +55,7 @@
                     @endforeach
                 </div>
 
-                <center>
+                <center data-animate="fadeRight" data-animate-delay="800">
                     <p class="mt-5 text-gray-600">I love Pritam Travels, this is the best agency in entire northeast</p>
                 </center>
             </div>

@@ -1,4 +1,4 @@
-<div class="bg-primary text-white">
+<div class="bg-primary text-white" data-animate="fadeUp" data-animate-delay="800">
     <div class=" flex flex-col gap-[90px] items-start justify-start relative mt-5">
         <div class="pt-5 pb-5 flex flex-row gap-[262px] items-start justify-center shrink-0 w-full relative">
             <div class="flex flex-col gap-10 items-start justify-start shrink-0 relative">
@@ -17,13 +17,13 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-row gap-[69px] items-start justify-start shrink-0 relative">
-                <div class="flex flex-col gap-[60px] items-start justify-start shrink-0 relative">
+            <div class="flex flex-row gap-[69px] items-start justify-start shrink-0 relative pt-16">
+                <div class="flex flex-col gap-3 items-start justify-start shrink-0 relative">
                     <div
-                        class="text-black text-2xl text-left font-semibold-type24-font-family text-semibold-type24-font-size font-semibold-type24-font-weight relative">
+                        class="  text-left font-semibold text-semibold-type24-font-size font-semibold-type24-font-weight relative">
                         About
                     </div>
-                    <div class="flex flex-col gap-[30px] items-start justify-start shrink-0 relative">
+                    <div class="flex flex-col gap-2 items-start justify-start shrink-0 relative">
                         <div
                             class=" text-left font-medium-type18-font-family text-medium-type18-font-size leading-medium-type18-line-height font-medium-type18-font-weight relative flex items-center justify-start">
                             How to Book
@@ -42,12 +42,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex flex-col gap-[60px] items-start justify-start shrink-0 relative">
+                <div class="flex flex-col gap-3 items-start justify-start shrink-0 relative">
                     <div
-                        class="text-black text-2xl text-left font-semibold-type24-font-family text-semibold-type24-font-size font-semibold-type24-font-weight relative">
+                        class="  text-left font-semibold text-semibold-type24-font-size font-semibold-type24-font-weight relative">
                         Other
                     </div>
-                    <div class="flex flex-col gap-[30px] items-start justify-start shrink-0 relative">
+                    <div class="flex flex-col gap-2 items-start justify-start shrink-0 relative">
                         <div
                             class=" text-left font-medium-type18-font-family text-medium-type18-font-size leading-medium-type18-line-height font-medium-type18-font-weight relative flex items-center justify-start">
                             Blog

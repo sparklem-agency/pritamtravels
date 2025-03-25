@@ -1,10 +1,10 @@
 <div class="grid lg:grid-cols-2 grid-cols-1 gap-5 container mx-auto">
     <div>
-        <img src="{{ url('/img/travel-girl.png') }}" alt="">
+        <img src="{{ url('/img/travel-girl.png') }}" alt="" data-animate-delay="800" data-animate="fadeLeft">
     </div>
-    <div>
+    <div data-animate="fadeLeft">
         <x-ui.heading title="We help you find your dream destination" subtitle="best in the business" />
-        <div class="mt-5 text-sm">
+        <div class="mt-5 text-sm" data-animate="fadeLeft" data-animate-delay="800">
             <p class="text-gray-600">Hey, Travelers! We're here to help you plan your dream holiday.  Simply choose your
                 destination, and let us take care of the rest!</p>
         </div>
@@ -13,7 +13,8 @@
 
         <div class="grid grid-cols-2 gap-5 mt-10 relative px-5">
 
-            <button type="button" class="bg-[#FACD49] rounded-full p-3 absolute -top-10 right-0 shadow-md">
+            <button type="button" data-animate="fadeUp" data-animate-delay="800"
+                class="bg-[#FACD49] rounded-full p-3 absolute -top-10 right-0 shadow-md">
 
                 <svg class="size-5" viewBox="0 0 43 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -23,22 +24,26 @@
 
             </button>
 
-            <div class="border rounded-2xl p-3 grid place-items-center gap-2">
+            <div class="border rounded-2xl p-3 grid place-items-center gap-2" data-animate="fadeLeft"
+                data-animate-delay="1000">
                 <h2 class="text-4xl text-primary font-bold">200+</h2>
                 <span class="opacity-55">Destinations</span>
             </div>
 
-            <div class="border rounded-2xl p-3 grid place-items-center gap-2">
+            <div class="border rounded-2xl p-3 grid place-items-center gap-2" data-animate="fadeRight"
+                data-animate-delay="600">
                 <h2 class="text-4xl text-primary font-bold">5+</h2>
                 <span class="opacity-55">Cars</span>
             </div>
 
-            <div class="border rounded-2xl p-3 grid place-items-center gap-2">
+            <div class="border rounded-2xl p-3 grid place-items-center gap-2" data-animate="fadeLeft"
+                data-animate-delay="600">
                 <h2 class="text-4xl text-primary font-bold">24/7</h2>
                 <span class="opacity-55">Support</span>
             </div>
 
-            <div class="border rounded-2xl p-3 grid place-items-center gap-2">
+            <div class="border rounded-2xl p-3 grid place-items-center gap-2" data-animate="fadeRight"
+                data-animate-delay="300">
                 <h2 class="text-4xl text-primary font-bold">12k+</h2>
                 <span class="opacity-55">Happy customers</span>
             </div>
